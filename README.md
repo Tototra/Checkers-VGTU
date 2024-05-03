@@ -30,9 +30,14 @@ To Win there is only one possibility, the first one that was no Pawn left losses
   <img src="/images/pawn_movement.png" alt="Image Alt text" title="Optional title" />
 </p>
 
-+ If thre is a enemy pawn on a touching diagonal square, and the the space behind this pawn in diagonal is free, you can jump over it, and this enemy pawn will disapear.
++ If thre is a enemy pawn on a touching diagonal square, and the the space behind this pawn in diagonal is free, you can jump over it, and this ennemy pawn will disapear.
+  <p align="center">
+  <img src="/images/kill.png" alt="Image Alt text" title="Optional title" />
+</p>
+
 + You can eat in every direction you want, it just has to be in diagonal.
 + Once any Pawn has reached the opposite side, it becomes a Queen
 
 ### Queens Movements
-+ A Queen 
++ A Queen still only move in diagonal, but she can move multiple squares.
++ If an ennemy Pawn is on the same diagonal as here, she can jump over it, add finish her movement where she wants on the same diagonal, and the ennemy will desapear.
