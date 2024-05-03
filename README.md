@@ -12,6 +12,10 @@ To run the program there are different possibilities.
 + If you can't manage to run the program in the terminal (depending on the system running on your computer, it can sometimes not work.) Open your favourite IDE, and simply run the program.
 
 ## How to use the program ?
-The progam I decided to implement, is a game of checkers, 
+The progam I decided to implement, is a game of checkers:
+Once you have launched it, you have multiple choices available.
+You can :
++ Start a New Game
++ Load an Existing Game (if you want to test the loading functionality, you can take a look in the 
 
-![Image Alt text](/Image for the report/begining.png "Optional title"))    
+![Image Alt text](/images/begining.png "Optional title"))    
