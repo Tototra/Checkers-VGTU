@@ -26,8 +26,13 @@ Once you have chosen, either the New Game, or the Load Game, the rules of the ga
 To Win there is only one possibility, the first one that was no Pawn left losses.
 ### Pawn movements 
 + A pawn can only move on the diagonal
+<p align="center">
+  <img src="/images/pawn_movement.png" alt="Image Alt text" title="Optional title" />
+</p>
+
 + If thre is a enemy pawn on a touching diagonal square, and the the space behind this pawn in diagonal is free, you can jump over it, and this enemy pawn will disapear.
 + You can eat in every direction you want, it just has to be in diagonal.
 + Once any Pawn has reached the opposite side, it becomes a Queen
+
 ### Queens Movements
 + A Queen 
