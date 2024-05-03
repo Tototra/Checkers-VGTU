@@ -13,3 +13,5 @@ To run the program there are different possibilities.
 
 ## How to use the program ?
 The progam I decided to implement, is a game of checkers, 
+
+![Image Alt text](/images/img.jpg "Optional title"))    
