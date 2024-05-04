@@ -48,7 +48,21 @@ To Win there is only one possibility, the first one that was no Pawn left losses
 ## Body/Analysis
 ### Polymorphism
 If you look at the code, there is a principal class wich is class **Pawn**. This class has all of the methodes of the black and white pawns. 
-That means, that in each class, Blackpawn and Whitepawn, we can access the same method.
+That means, that in each class, Blackpawn and Whitepawn, we can access the same method, without copying them twice.
 
 ### Abstraction
-In the class Pawn I have implemented the 
+In the class Pawn I have implemented the two abstract methodes that will be used in the BlacPawn and the WhitePawn class.
+    <p align="center">
+  <img src="/images/Abstraction.png" alt="Image Alt text" title="Optional title" />
+</p>
+
+### Inheritance
+Both BlackPawn and WhitePawn inherit from the Pawn class. 
+They are define like: **BlackPawn(Pawn)**, **WhitePawn(Pawn)**, this is reaaly useful, when we want to use a method that does the same thing for different objects.
+
+### Encapsulation
+Encapsulation is the fundamental implementation in POO, so all the code has encapsulation.
+
+## 2 design patterns
+### Singleton
+I used Singleton in the Game Class, to be sure that we could only create one instance at a time. This means that whenever an object of the class is instantiated, the same instance is returned every time, rather than creating a new instance.
