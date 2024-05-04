@@ -41,3 +41,14 @@ To Win there is only one possibility, the first one that was no Pawn left losses
 ### Queens Movements
 + A Queen still only move in diagonal, but she can move multiple squares.
 + If an ennemy Pawn is on the same diagonal as here, she can jump over it, add finish her movement where she wants on the same diagonal, and the ennemy will desapear.
+    <p align="center">
+  <img src="/images/queen.png" alt="Image Alt text" title="Optional title" />
+</p>
+
+## Body/Analysis
+### Polymorphism
+If you look at the code, there is a principal class wich is class **Pawn**. This class has all of the methodes of the black and white pawns. 
+That means, that in each class, Blackpawn and Whitepawn, we can access the same method.
+
+### Abstraction
+In the class Pawn I have implemented the 
