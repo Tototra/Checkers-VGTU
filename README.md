@@ -66,3 +66,13 @@ Encapsulation is the fundamental implementation in POO, so all the code has enca
 ## 2 design patterns
 ### Singleton
 I used Singleton in the Game Class, to be sure that we could only create one instance at a time. This means that whenever an object of the class is instantiated, the same instance is returned every time, rather than creating a new instance.
+    <p align="center">
+  <img src="/images/singleton1.png" alt="Image Alt text" title="Optional title" />
+</p>
+
+  <p align="center">
+  <img src="/images/singleton2.png" alt="Image Alt text" title="Optional title" />
+</p>
+
+### Factory Methods
+Factory methods are used for creating objects without specifying the exact class of object that will be created. In this code, the PawnFactory class has a **create_pawn** static method that takes a color as input and returns an instance of a Pawn subclass based on that color.
